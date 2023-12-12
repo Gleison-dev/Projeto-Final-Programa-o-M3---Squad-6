@@ -99,46 +99,39 @@ insert into tb_adress (cep, street, street_number, neighborhood, city, state, co
 ('13341043', 'Alameda dos Jequitibás', 103, 'Colinas do Mosteiro de Itaici', 'Indaiatuba', 'São Paulo', 'Brasil'),
 ('78717106', 'Rua B', 10, 'Residencial das Orquídeas', 'Rondonópolis', 'Mato Grosso', 'Brasil'),
 ('44061580', 'Rua Cambaiba', 45, 'Papagaio', 'Feira de Santana', 'Bahia', 'Brasil'),
-('83180970', 'Estrada Principal', 640, 'Centro', 'Colônia Malhada', 'Paraná', 'Brasil'),
-('77066112', 'Avenida Guarujá', 725, 'Setor Morada do Sol 2 - Taquaralto', 'Palmas', 'Tocantins', 'Brasil'),
-('88906558', 'Rua Lúcio Antônio Timboni', 245, 'Coloninha', 'Araranguá', 'Santa Catarina', 'Brasil'),
-('65063740', 'Rua São Benedito', 34, 'Cruzeiro do Anil', 'São Luís', 'Maranhão', 'Brasil'),
-('66913060', 'Rua Luís Clementino de Oliveira', 5, 'Chapéu Virado - Mosqueiro', 'Belém', 'Pará', 'Brasil'),
-('76873462', 'Rua Flor do Ipê', 55, 'Setor 04', 'Ariquemes', 'Rondônia', 'Brasil'),
-('88817290', 'Rua José Manoel de Oliveira', 27, 'Vila Zuleima', 'Criciúma', 'Santa Catarina', 'Brasil'),
-('88306840', 'Rua Anthurium', 35, 'Balneário Santa Clara', 'Itajaí', 'Santa Catarina', 'Brasil'),
-('52150030', 'Rua Alto Paraná', 650, 'Dois Unidos', 'Recife', 'Pernambuco', 'Brasil');
+('83180970', 'Estrada Principal', 640, 'Centro', 'Colônia Malhada', 'Paraná', 'Brasil');
+
 
 insert into tb_teachers(first_name, last_name, age, gender, adress_id, email, password) values 
-('Andreia', 'Gonçalves', 23, 'F', 9, 'andreiateacher@gmail.com', 'dreia3720'),
-('Luiz', 'Silva', 25, 'M', 10, 'luizteacher@gmail.com', 'ls462130'),
-('Thiago', 'Gomes', 20, 'M', 11,'thiagoteacher@gmail.com', '562030'),
-('Juliana', 'Ferreira', 21, 'F', 12, 'julianateacher@gmail.com', 'ju165040'),
-('Tiago', 'Cavalcanti', 34, 'M', 13, 'tiago_cavalcanti@gmail.com', 'breno2901'),
-('Luiz', 'Silva', 25, 'M', 14, 'luizteacher@gmail.com', 'ls462130'),
-('Isabella', 'Silva', 27, 'F', 15, 'isabellasilva_teacher@gmail.com', '5GrX8BwdZ7'),
-('Nicole', 'Ramos', 40, 'F', 16, 'nicoleteacher@gmail.com', 'YTMsqrGuAU');
+('Andreia', 'Gonçalves', 23, 'F', 1, 'andreiateacher@gmail.com', 'dreia3720'),
+('Luiz', 'Silva', 25, 'M', 2, 'luizteacher@gmail.com', 'ls462130'),
+('Thiago', 'Gomes', 20, 'M', 3,'thiagoteacher@gmail.com', '562030'),
+('Juliana', 'Ferreira', 21, 'F', 4, 'julianateacher@gmail.com', 'ju165040'),
+('Tiago', 'Cavalcanti', 34, 'M', 5, 'tiago_cavalcanti@gmail.com', 'breno2901'),
+('Luiz', 'Silva', 25, 'M', 6, 'luizteacher@gmail.com', 'ls462130'),
+('Isabella', 'Silva', 27, 'F', 7, 'isabellasilva_teacher@gmail.com', '5GrX8BwdZ7'),
+('Nicole', 'Ramos', 40, 'F', 8, 'nicoleteacher@gmail.com', 'YTMsqrGuAU');
 
 insert into tb_users (first_name, last_name, age, gender,adress_id, parentlist_id, email, password) values
-('Vinicius', 'Rosa', 17, 'M' ,1, 1, 'vinicius.rosa@gmail.com', 'vinirosa0'),
-('Gustavo', 'Monteiro', 20, 'M',3, 2, 'gustavo-monteiro92@hotmail.com', 'gmO492'),
-('Raquel', 'Cláudia', 18, 'F',5, 3, 'raquel026@gmail.com', 'elay025'),
-('Valentina', 'Liz', 16, 'F',4, 4, 'va3040@gmail.com', 'vAlen5030'),
-('Manoel', 'Caldeira', 19, 'M', 5, 5, 'manoel-caldeira85@gmail.com', 'cadeira5680'),
-('Giovanni', 'Almeida', 20, 'M', 6, 6, 'giovanni-almeida88@hotmail.com', 'ICBXopuQph'),
-('Bianca', 'Gonçalves', 17, 'F', 7, 7, 'biancagoncalves@gmail.com', '6PR3inGKwp'),
-('Aurora', 'Mota', 15, 'F', 8, 8, 'auroramota@gmail.com', '7edHQZFgBN');
+('Vinicius', 'Rosa', 17, 'M' ,9, 1, 'vinicius.rosa@gmail.com', 'vinirosa0'),
+('Gustavo', 'Monteiro', 20, 'M',10, 2, 'gustavo-monteiro92@hotmail.com', 'gmO492'),
+('Raquel', 'Cláudia', 18, 'F',11, 3, 'raquel026@gmail.com', 'elay025'),
+('Valentina', 'Liz', 16, 'F',12, 4, 'va3040@gmail.com', 'vAlen5030'),
+('Manoel', 'Caldeira', 19, 'M', 13, 5, 'manoel-caldeira85@gmail.com', 'cadeira5680'),
+('Giovanni', 'Almeida', 20, 'M', 14, 6, 'giovanni-almeida88@hotmail.com', 'ICBXopuQph'),
+('Bianca', 'Gonçalves', 17, 'F', 15, 7, 'biancagoncalves@gmail.com', '6PR3inGKwp'),
+('Aurora', 'Mota', 15, 'F', 16, 8, 'auroramota@gmail.com', '7edHQZFgBN');
 
 
 insert into tb_parents (first_name, last_name, age, gender, adress_id, email, password) values
-('Tatiane', 'Elisa', 45, 'F', 2, 'tatiane_elisa@gmail.com', 'OOuRmWlFbO' ),
-('Evelyn', 'Priscila', 50, 'F', 6, 'evelyn.priscila@hotmail.com', 'pzxjm20prs'),
-('Caio', 'Nunes', 43, 'M', 7, 'caio-nunes74@gmail.com', 'DbL7u28XgE'),
-('José', 'Anthony', 55, 'M', 8,'jose-anthony77@outlook.com', '34L6oW9MLM'),
-('Caroline', 'Aparecida', 18, 'F', 9, 'carolaparecida@gmail.com', 'amora@4562' ),
-('Fátima', 'Novaes', 23, 'F', 10, 'fatima-novaes91@outlook.com', 'NJ2MGTh8OO'),
-('Hugo', 'Monteiro', 37, 'M', 11, 'hugo.carlos.monteiro@outlook.com', 'yRyQt9FSLb'),
-('Sérgio', 'Freitas', 21, 'M', 12, 'sergio.nicolas.freitas@hotmail.com', 'DHNwnAXoDm');
+('Tatiane', 'Elisa', 45, 'F', 9, 'tatiane_elisa@gmail.com', 'OOuRmWlFbO' ),
+('Evelyn', 'Priscila', 50, 'F', 10, 'evelyn.priscila@hotmail.com', 'pzxjm20prs'),
+('Caio', 'Nunes', 43, 'M', 11, 'caio-nunes74@gmail.com', 'DbL7u28XgE'),
+('José', 'Anthony', 55, 'M', 12,'jose-anthony77@outlook.com', '34L6oW9MLM'),
+('Caroline', 'Aparecida', 18, 'F', 13, 'carolaparecida@gmail.com', 'amora@4562' ),
+('Fátima', 'Novaes', 23, 'F', 14, 'fatima-novaes91@outlook.com', 'NJ2MGTh8OO'),
+('Hugo', 'Monteiro', 37, 'M', 15, 'hugo.carlos.monteiro@outlook.com', 'yRyQt9FSLb'),
+('Sérgio', 'Freitas', 21, 'M', 16, 'sergio.nicolas.freitas@hotmail.com', 'DHNwnAXoDm');
 
 select * from tb_adress;
 select * from tb_parents;
@@ -213,4 +206,4 @@ select count(*) from tb_parents where email like '%@gmail.com';
 select count(*) from tb_parents where email like '%@hotmail.com';
 select count(*) from tb_parents where email like '%@outlook.com';
 
--- drop database kani;
+ drop database kani;
