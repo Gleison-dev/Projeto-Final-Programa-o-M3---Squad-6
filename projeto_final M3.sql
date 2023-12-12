@@ -72,7 +72,6 @@ foreign key (teacher_id) references tb_teachers(id)
 create table tb_userlist(
 id int primary key auto_increment,
 user_id int not null,
-squad_id int,
 created_at timestamp default now(),
 foreign key (user_id) references tb_users(id)
 );
@@ -142,17 +141,10 @@ insert into tb_parentlist (user_id, parent_id) values
 
 
 insert into tb_squads(userlist_id) values
-(9),
-(10),
-(11),
-(12);
-
-insert into tb_userlist (user_id, squad_id) values
-(1, 1),
-(2, 2),
-(3, 3),
-(4, 4);
-
+(1),
+(2),
+(3),
+(4);
 
 
 select * from tb_teacherlist;
@@ -161,4 +153,3 @@ select * from tb_parentlist;
 select * from tb_squads;
 
 drop database kani;
-
